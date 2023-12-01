@@ -1,0 +1,65 @@
+.nav-container{
+  position:fixed;
+  z-index: 1000;
+  width: 100%;
+  display: inline-block;
+}
+.py-1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo{
+  background-image: url(../../../public/img/logoWhite.svg);
+  height: 28px;
+  width: 140px;
+}  
+.svg-button1{
+  background-image: url(../../../public/img/plusWhite.svg);
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover; 
+}
+.svg-button2{
+  background-image: url(../../../public/img/networkWhite.svg);
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover; 
+}
+.svg-button3{
+  background-image: url(../../../public/img/languageWhite.svg);
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover; 
+}
+.svg-button4{
+  background-image: url(../../../public/img/menuWhite.svg);
+  width: 30px; 
+  height: 30px;
+  background-size: cover; 
+}
+.nav-container > div{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left:2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #eee;
+}
+.ul{
+  display: flex;
+  align-items: center;
+  .li {
+   color: white;
+   font-size: 18px;
+   padding:0 30px;
+   transition:all 0.3s ease-in-out;
+ }
+}
+.li:hover {
+  color: #008458;
+}

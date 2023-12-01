@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p,div,span,p{
+  font-family: 'Pretendard-Regular';
+}
+html,body{height: 100%;}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  vertical-align: baseline;
+  font-family: 'Pretendard-Regular',sans-serif;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
+#app {
   min-height: 100vh;
+  height: 100%;
+  font-family: 'Pretendard-Regular',sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+form {
+  box-sizing: border-box;
+}
+
+table,
+tbody,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-size: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: inherit;
+  }
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+}
+
+button,
+input,
+select {
+  overflow: visible;
+  border-width: 1px;
+  border-style: solid;
+  border-color: color(w80);
+  background: transparent;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+
+button {
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
+@font-face {
+  font-family: "HanaB";
+  src: url("./fonts/HanaB.ttf");
+}
+
+@font-face {
+  font-family: "HanaM";
+  src: url("./fonts/HanaM.ttf");
+}
+
+@font-face {
+  font-family: "HanaL";
+  src: url("./fonts/HanaL.ttf");
+}
+h1,h2,h3,h4{
+  font-family: "HanaB";
+}
+h5{
+  font-family: "HanaM";
+}
+.hana-bold{
+  font-family: "HanaB";
+}
+.hana-m{
+  font-family: "HanaM";
+}
+.container{
+  width: 1280px;
+}
+.justify-content-center{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
